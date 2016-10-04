@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+#exportPdf {
+  position: fixed;
+  top: 155px;
+  right: 0;
+}

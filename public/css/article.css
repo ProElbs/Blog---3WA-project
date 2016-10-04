@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.row {
+  min-width: 550px;
+}
+.delete {
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  transition: all 0.3s ease 0s;
+}
+.delete:hover {
+  background: #FF0000;
+}
+.delete>a {
+  color: #FF0000;
+}
+.delete:hover >a {
+  color: #FFF;
+}
+.favorite {
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+}
+.favorite>a {
+  color: #e91da4;
+}
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width:1000px) {
+  table tr th:nth-child(3) {
+    display: none;
+  }
+  table tr td:nth-child(3) {
+    display: none;
+  }
+}

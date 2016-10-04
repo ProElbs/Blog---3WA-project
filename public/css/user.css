@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.passwordInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.passwordInfo>p {
+  text-align: justify;
+  width: 48%;
+}
+.passwordLevel {
+  display: flex;
+  align-items: center;
+  width: 48%;
+}
+.passwordLevel>span {
+  display: inline-block;
+  width: 33%;
+  height: 3px;
+  background-color: #c9c9c9;
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.chatMessage {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #8ecef7;
+  margin: 5px 0;
+  padding: 3px;
+}
