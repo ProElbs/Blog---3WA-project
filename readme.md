@@ -12,6 +12,10 @@ This project is developed under Laravel, you can use MAMP to work in local.
 
 * Install all dependency required in composer.json
 
+```
+composer install
+```
+
 * Don't forget to configure your file .env with Database informations, mailtrap.io, twitter API (several keys) and Stripe (several keys) as payment solution
 
 ## Built With
